@@ -1,0 +1,50 @@
+﻿http://tattoocoder.azurewebsites.net/building-vnext-web-api-using-mvc-6-mongodb-azure/
+
+
+db.speakers.insert({  
+    first: 'Shayne',
+    last: 'Boyer',
+    twitter: '@spboyer',
+    title: 'Developer Guy',
+    blog: 'tattoocoder.com'
+});
+
+db.speakers.insert({  
+    first: 'Scott',
+    last: 'Hanselman',
+    twitter: '@shanselman',
+    title: 'Teacher Blogger Guy',
+    blog: 'hanselman.com'
+});
+
+db.speakers.insert({  
+    first: 'John',
+    last: 'Papa',
+    twitter: '@john_papa',
+    title: 'JavaScript Angular Guy',
+    blog: 'johnpapa.net'
+});
+
+db.speakers.insert({  
+    first: 'Mads',
+    last: 'Kristensen',
+    twitter: '@mkristensen',
+    title: 'Web Essentials Guy',
+    blog: 'about.me/madskristensen'
+});
+
+db.speakers.insert({  
+    first: 'Damian',
+    last: 'Edwards',
+    twitter: '@DamianEdwards',
+    title: 'ASP.NET Demo Guy',
+    blog: 'damianedwards.wordpress.com'
+});
+
+db.speakers.insert({  
+    first: 'Jon',
+    last: 'Galloway',
+    twitter: '@jongalloway',
+    title: 'ASP.NET Community Guy',
+    blog: 'weblogs.asp.net/jongalloway'
+});

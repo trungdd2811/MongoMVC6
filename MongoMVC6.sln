@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MongoMVC.Layouts", "src\MongoMVC.Layouts\MongoMVC.Layouts.xproj", "{FC9D37ED-3CD2-4E7A-84D4-BDEE1621231C}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MongoMVC.Cores", "src\MongoMVC.Cores\MongoMVC.Cores.xproj", "{C0550E69-6AFA-4C03-AEDB-4605221F2F5C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MongoMVC.DAL", "src\MongoMVC.DAL\MongoMVC.DAL.xproj", "{808188D4-3AA5-4C2F-A661-D3338CE1181C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,21 @@ Global
 		{FC9D37ED-3CD2-4E7A-84D4-BDEE1621231C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC9D37ED-3CD2-4E7A-84D4-BDEE1621231C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC9D37ED-3CD2-4E7A-84D4-BDEE1621231C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0550E69-6AFA-4C03-AEDB-4605221F2F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0550E69-6AFA-4C03-AEDB-4605221F2F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0550E69-6AFA-4C03-AEDB-4605221F2F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0550E69-6AFA-4C03-AEDB-4605221F2F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808188D4-3AA5-4C2F-A661-D3338CE1181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808188D4-3AA5-4C2F-A661-D3338CE1181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808188D4-3AA5-4C2F-A661-D3338CE1181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808188D4-3AA5-4C2F-A661-D3338CE1181C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC9D37ED-3CD2-4E7A-84D4-BDEE1621231C} = {69FF0221-0D00-400A-BF84-3245E012AF92}
+		{C0550E69-6AFA-4C03-AEDB-4605221F2F5C} = {69FF0221-0D00-400A-BF84-3245E012AF92}
+		{808188D4-3AA5-4C2F-A661-D3338CE1181C} = {69FF0221-0D00-400A-BF84-3245E012AF92}
 	EndGlobalSection
 EndGlobal
